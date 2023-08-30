@@ -1,1 +1,1 @@
-recursive-include *.j2
+recursive-include FastGen/templates *
