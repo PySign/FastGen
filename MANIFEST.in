@@ -1,2 +1,2 @@
 recursive-include FastGen/templates/*
-include FastGen/templates/requirements.txt.j2
+include *.j2
