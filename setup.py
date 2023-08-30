@@ -4,7 +4,7 @@ setup(
     name='FastGen',
     version='0.0.1',
     packages=find_packages(),
-    package_data={'FastGen': ['FastGen/templates/*']},
+    package_data={'FastGen': ['templates/*']},
     install_requires=[
         'Jinja2',
     ],

@@ -1,1 +1,1 @@
-recursive-include FastGen/templates *
+recursive-include templates *
