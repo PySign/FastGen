@@ -1,7 +1,4 @@
-from FastGen.generators.project import generate_project
+from main import main
 
-
-def main():
-    print('Hello from FastGen')
-    project = input('Enter Project Name: ')
-    generate_project(project)
+if __name__ == '__main__':
+    main()
