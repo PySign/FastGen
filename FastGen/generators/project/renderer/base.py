@@ -24,7 +24,7 @@ class BaseRenderer(ABC):
         return text
 
     @abstractmethod
-    def render_template(self, *args, **kwargs) -> bytes:
+    def render_template(self, template_name) -> bytes:
         ...
 
     def __call__(self, *args, **kwargs) -> bytes:

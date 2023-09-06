@@ -19,8 +19,8 @@ class Project:
         renderer = renderer(self.project, prj_env, self.args)
         data = renderer.render_template(template)
         output_path = os.path.join(self.project_dir, template[:-3])
-        with open(output_path, 'wb') as f:
-            f.write(data)
+        with open(output_path, 'wb') as file:
+            file.write(data)
 
     def generate_project(self, force=False):
         # Create .env file

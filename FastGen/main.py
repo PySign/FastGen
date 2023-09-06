@@ -28,7 +28,7 @@ def create_args_parser():
 
 def main():
     parser = create_args_parser()
-    options, unknown = parser.parse_known_args()
+    options, _ = parser.parse_known_args()
     if options.project:
         Project(options.force)
 
