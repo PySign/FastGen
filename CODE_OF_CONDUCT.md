@@ -1,5 +1,7 @@
 # Contributor Covenant Code of Conduct
 
+**No Code of Conduct is in place yet, Content below is auto generated**
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
